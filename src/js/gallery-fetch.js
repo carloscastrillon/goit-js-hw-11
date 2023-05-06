@@ -1,8 +1,6 @@
 import axios from 'axios';
 export { fetchImages };
 
-
-
 export default class GalleryApi {
   constructor() {
     this.API_KEY = '?key=36069470-d07a36af875086d5e81b36d45';
