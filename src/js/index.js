@@ -34,9 +34,11 @@ function onSearchForm(e) {
         renderGallery(data.hits);
         simpleLightBox = new SimpleLightbox('.gallery a').refresh();
    
+
         if (data.totalHits > perPage) {
           loadMoreBtn.classList.remove('is-hidden');
         }
+      
     })
     .catch(error => console.log(error))
     .finally(() => {
